@@ -1,0 +1,19 @@
+server: 
+  port: 3000
+
+url: http://localhost:3000
+
+db:
+  database: dbname
+  username: dbname
+  password: dbname
+  opts:
+    host: localhost
+    dialect: postgresql
+    logging: false
+    port: 5432
+
+cloudinary:
+  cloudName: 'cloud'
+  apiKey: 'cloud'
+  apiSecret: cloud
